@@ -1,4 +1,4 @@
-const modal = document.getElementById("my-dialog");
+const modal = document.getElementById("dialog-container");
 const applyBtn = document.getElementById("apply-btn");
 const closeBtn = document.getElementById("close");
 const sendBtn = document.getElementById("send-application");

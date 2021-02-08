@@ -377,7 +377,9 @@
                     class="user-avatar user-avatar"
                   />
 
-                  <div class="more-btn">+ 3</div>
+                  <div class="more-btn">
+                    <p class="caption caption--medium">+ 3</p>
+                  </div>
                 </div>
 
                 <div class="row row--mt row--mb">
@@ -410,61 +412,65 @@
           </div>
         </div>
       </div>
-      <div id="my-dialog" class="dialog">
-        <div class="dialog-content">
-          <div
-            class="row row--flexrow row--content-space-between row--align-items-center"
-          >
-            <div>
-              <p class="caption caption--large caption--grey">
-                YOUR APPLICATION
-              </p>
-            </div>
-
-            <div><span id="close" class="close">&times;</span></div>
-          </div>
-          <div class="row row--mt row--mb">
-            <hr class="hr" />
-          </div>
-
-          <div class="row row--mt row--mb row--flexrow row--align-items-center">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="user profile picture"
-                class="user-avatar"
-              />
-            </div>
-            <div>
-              <p class="caption caption--large caption--black">
-                Your hiring contact is Tobias
-              </p>
-              <p class="caption caption--medium caption--grey">
-                Let them know why you are a good fit.
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <textarea
-              class="note"
-              id="note"
-              name="note"
-              rows="4"
-              cols="6"
-              placeholder="Write a note to Tobias"
-            ></textarea>
-          </div>
-
-          <div>
-            <button
-              class="btn btn--mt btn--slightdarkpurple"
-              id="send-application"
+      <div class="dialog-container" id="dialog-container">
+        <div class="dialog">
+          <div class="dialog-content">
+            <div
+              class="row row--flexrow row--content-space-between row--align-items-center"
             >
-              <p class="caption caption--medium caption--bold caption--white">
-                Send Application
-              </p>
-            </button>
+              <div>
+                <p class="caption caption--large caption--grey">
+                  Your Application
+                </p>
+              </div>
+
+              <div><span id="close" class="close">&times;</span></div>
+            </div>
+            <div class="row row--mt row--mb">
+              <hr class="hr" />
+            </div>
+
+            <div
+              class="row row--mt row--mb row--flexrow row--align-items-center"
+            >
+              <div>
+                <img
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  alt="user profile picture"
+                  class="user-avatar"
+                />
+              </div>
+              <div>
+                <p class="caption caption--large caption--black">
+                  Your hiring contact is Tobias
+                </p>
+                <p class="caption caption--medium caption--grey">
+                  Let them know why you are a good fit.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <textarea
+                class="note"
+                id="note"
+                name="note"
+                rows="4"
+                cols="6"
+                placeholder="Write a note to Tobias"
+              ></textarea>
+            </div>
+
+            <div>
+              <button
+                class="btn btn--mt btn--slightdarkpurple"
+                id="send-application"
+              >
+                <p class="caption caption--medium caption--bold caption--white">
+                  Send Application
+                </p>
+              </button>
+            </div>
           </div>
         </div>
       </div>
